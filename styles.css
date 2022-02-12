@@ -271,36 +271,48 @@ main {
   width: 1em;
 }
 
-.about {
+.blurb {
   flex-direction: column;
   margin-top: 3vh;
 }
 
-.about__name {
+.blurb__name {
   color: var(--clr-primary);
 }
 
-.about__role {
+.blurb__role {
   margin-top: 1.2em;
 }
 
-.about__desc {
+.blurb__desc {
   font-size: 1rem;
   max-width: 600px;
   text-align: center;
 }
 
-.about__desc,
-.about__contact {
+.blurb__desc,
+.blurb__contact {
   margin-top: 2.4em;
 }
 
-.about .link--icon {
+.blurb .link--icon {
   margin-right: 0.8em;
 }
 
-.about .btn--outline {
+.blurb .btn--outline {
   margin-right: 1em;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 60vw;
+  text-align: center;
 }
 
 .projects__grid {
@@ -438,7 +450,7 @@ main {
     margin-left: 0.8em;
   }
 
-  .about {
+  .blurb {
     align-items: flex-start;
     margin-top: 2em;
   }
